@@ -28,7 +28,6 @@ public class DayOne {
         else if (a > b) {
             System.out.println("a is bigger than b");
         }
-
          else {
              System.out.println("a and b are equal");
          }
