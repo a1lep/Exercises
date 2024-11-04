@@ -33,7 +33,6 @@ public class DayOne {
              System.out.println("a and b are equal");
          }
              */
-
     }
 
 }
