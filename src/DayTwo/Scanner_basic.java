@@ -8,8 +8,8 @@ public class Scanner_basic {
  // TASK 1 - scanner class import
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter first number: ");
-        int n = scanner.nextInt();
-        System.out.println(n);
+        int s = scanner.nextInt();
+        System.out.println(s);
 
 
     }
