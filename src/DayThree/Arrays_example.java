@@ -9,7 +9,7 @@ public class Arrays_example {
 
         carModel[0] ="Model 3";
 
-        Arrays.sort(carBrand); // vaja importida array.
+        Arrays.sort(carBrand); // vaja importida array
         System.out.println(Arrays.toString(carBrand)); // tähestikulises järjekorras
 
         carBrand[0] = "BMW";
