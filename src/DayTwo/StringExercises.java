@@ -3,6 +3,7 @@ package DayTwo;
 public class StringExercises {
     public static void main(String[] args) {
 
+
         String original = "hello world";
         //Exercise 1 - läbivad suured tähed
         System.out.println(original.toUpperCase());
@@ -24,8 +25,11 @@ public class StringExercises {
         String name = "abracadabra";
         System.out.println(name.lastIndexOf('a'));
         System.out.println(name.indexOf('a'));
+
         //Exercise 9 - asendus (sõna)
         String java = "Java is fun";
-        System.out.println(java.replace("fun", "awesome"));
+        String lastWord = "fun";
+        String lastWordNew = "awesome";
+        System.out.println(java.replace(lastWord, lastWordNew));
     }
 }
