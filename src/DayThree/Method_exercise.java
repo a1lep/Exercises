@@ -2,7 +2,7 @@ package DayThree;
 
 public class Method_exercise {
     public static void main(String[] args) {
-        int length = 4;
+        int length = 6;
         int width= 5;
 
         getArea(length, width);
