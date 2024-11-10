@@ -12,7 +12,7 @@ public class ArrayListExerciseTwo {
         }
 
 
-       for (int i = numbers.size(); i >= 0; i--) {
+       for (int i = numbers.size() -1; i >= 0; i--) { // -1 was missing, bc the row needs to start from the last nr. 0 is the first
             if (numbers.get(i) % 2 == 0) {
                 numbers.remove(i);
             }
