@@ -44,10 +44,8 @@ public class Lists_exercises {
 
             if (number != rightNumber) {
                 System.out.println("Try again!");
-
-                }
-
-                    else {
+            }
+            else {
                 System.out.println("Correct guess!");
                 break;
             }
