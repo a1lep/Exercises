@@ -1,6 +1,5 @@
 package swDayOne;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -10,7 +9,7 @@ public class Lists_exercises {
 
         // Exercise 1 - Find Unique Words from a Sentence
 
-    /* Scanner userSentence = new Scanner(System.in);
+    Scanner userSentence = new Scanner(System.in);
     System.out.println("Write a sentence: "); // asking for a sentence w Scanner
     String input = userSentence.nextLine();
 
@@ -26,23 +25,24 @@ public class Lists_exercises {
         Set<Character> alphabet = new HashSet<>();
         for (char b = 'a'; b <= 'z'; b++) {
             alphabet.add(b);
+
             Set<Character> vowels = Set.of('a', 'e', 'i', 'o', 'u');
             alphabet.removeAll(vowels);
         }
-        System.out.println(alphabet); */
+        System.out.println(alphabet);
 
         // Exercise 3 - Guess the Number between 1 and 50
         Scanner guess = new Scanner(System.in);
         System.out.println("Guess the number between 1 and 50: ");
 
-        int rightNumber = 49; // õige number
-        int maxAttemps = 5; // maksimum korrad
+        int correctNumber = 49; // õige number
+        int maxAttemps = 5; // maksimumkorrad
 
         for (int attempt = 1; attempt <= maxAttemps; attempt++) {
 
             int number = guess.nextInt(); // number is the user's answer - needs to be inside loop
 
-            if (number != rightNumber) {
+            if (number != correctNumber) {
                 System.out.println("Try again!");
             }
             else {
