@@ -1,0 +1,50 @@
+{
+  "person1": {
+  "name": "John",
+  "age": "30",
+  "address": "Tallinn",
+      "kids": [{
+        "name": "Mary",
+        "age": 2,
+        "isUnderage": true
+      },
+        {
+          "name": "Carrie",
+          "age": 6,
+          "isUnderage": true
+        }
+      ]
+  },
+  "person2": {
+    "name": "Carl",
+    "age": "60",
+    "address": "Tartu",
+    "kids": [{
+      "name": "Maria",
+      "age": 30,
+      "isUnderage": false
+    },
+      {
+        "name": "Carmen",
+        "age": 10,
+        "isUnderage": true
+      }
+    ]
+  },
+  "person3": {
+    "name": "Jackie",
+    "age": "53",
+    "address": "Põlva",
+    "kids": [{
+      "name": "Martin",
+      "age": 7,
+      "isUnderage": true
+    },
+      {
+        "name": "Luke",
+        "age": 25,
+        "isUnderage": false
+      }
+    ]
+  }
+}

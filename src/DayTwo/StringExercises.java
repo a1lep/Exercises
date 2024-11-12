@@ -27,9 +27,9 @@ public class StringExercises {
         System.out.println(name.indexOf('a'));
 
         //Exercise 9 - asendus (sõna)
-        String java = "Java is fun";
-        String lastWord = "fun";
-        String lastWordNew = "awesome";
-        System.out.println(java.replace(lastWord, lastWordNew));
+       String java = "Java is fun";
+       String lastWord = "fun";
+       String lastWordNew = "awesome";
+       System.out.println(java.replace(lastWord, lastWordNew));
     }
 }

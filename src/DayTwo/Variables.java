@@ -2,8 +2,8 @@ package DayTwo;
 
 public class Variables {
         int number;
-        static String name = "John";
-        private static int totalAccounts = 1;
+        static java.lang.String name = "John";
+        private static final int totalAccounts = 1;
 
     public static void main(String[] args) {
 
