@@ -4,8 +4,17 @@ import java.util.Scanner;
 
 public class exercisesSwitch {
     public static void main(String[] args) {
+        example();
+        daysOfWeek();
+        operation();
+        grades();
+        daysOfMonths();
+        forSeasons();
+    }
+
+    private static void example() {
         // Example - switch
-/*        int number = 5;
+        int number = 5;
 
         switch (number) {
             case 1:
@@ -31,7 +40,9 @@ public class exercisesSwitch {
                 System.out.println("Invalid number");
                 break;
         }
+    }
 
+    private static void daysOfWeek() {
         // Exercise 1 - Switch statement
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number from 1 to 7");
@@ -60,14 +71,9 @@ public class exercisesSwitch {
                 System.out.println("Sunday");
                 break;
         }
+    }
 
-
-        // Exercise 1 - with random number
-        //int num = 0
-
-
-        // Math.random()
-
+    private static void operation() {
         // Exercise 2 - Calculator
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Enter the first number");
@@ -82,7 +88,7 @@ public class exercisesSwitch {
                 System.out.println(firstNumber + " x " + secondNumber + " = " + firstNumber * secondNumber);
                 break;
             case "/":
-                System.out.println( firstNumber + " : " + secondNumber + " = "+ firstNumber / secondNumber);
+                System.out.println(firstNumber + " : " + secondNumber + " = " + firstNumber / secondNumber);
                 break;
             case "+":
                 System.out.println(firstNumber + " + " + secondNumber + " = " + firstNumber + secondNumber);
@@ -92,30 +98,34 @@ public class exercisesSwitch {
                 break;
 
         }
+    }
 
+    private static void grades() {
         // Exercise 3 - Grade Description
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your grade(A to F): ");
-        String grade = sc.next();
+        char grade = sc.next().charAt(0);
 
         switch (grade) {
-            case "A":
+            case 'A':
                 System.out.println("Excellent");
                 break;
-            case "B":
+            case 'B':
                 System.out.println("Good'");
                 break;
-            case "C":
+            case 'C':
                 System.out.println("Average");
                 break;
-            case "D":
+            case 'D':
                 System.out.println("Poor");
                 break;
-            case "E":
+            case 'E':
                 System.out.println("Fail");
                 break;
         }
-*/
+    }
+
+    private static void daysOfMonths() {
         // Exercise 4 - Month Days
         Scanner sc = new Scanner(System.in);
         System.out.println("Write the number of the month (1-12): ");
@@ -158,7 +168,35 @@ public class exercisesSwitch {
                 System.out.println("December has 31 days");
                 break;
         }
+    }
 
+    private static void forSeasons() {
+        //Exercise 5 - Season Finder
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your month's number(1-12): ");
+        int month = sc.nextInt();
+        switch (month) {
+            case 1:
+            case 2:
+            case 12:
+                System.out.println("Winter");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Spring");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Summer");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Autumn");
+                break;
+        }
     }
 
 }
